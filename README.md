@@ -26,6 +26,20 @@ Then, enable hash mode in your routing module of angular micro frontend applicat
 })
 ```
 
+## How to start the application
+
+Run `npm install` in each application `root-config`, `navbar`, `app1` and `app2`
+
+Run `npm start` in `root-config`
+
+Run `serve:single-spa:navbar` in `navbar`
+
+Run `serve:single-spa:app1` in `app1`
+
+Run `serve:single-spa:app2` in `app2`
+
+Navigate to `http://localhost:9000/`
+
 ## How the example works
 The example contains two buttons in navbar, `app1` and `app2`. By clicking `app1`, it will show its content with two links 
 to navigate to two sub routes `route1` and `route2`. `app2` is just a simple app showing a message without any sub routes.
